@@ -1,0 +1,16 @@
+<div class="col-sm-12">    
+    <div class="">
+    <ol>
+    <% users.forEach(function(user) { %>
+            <li>
+                <h4><a href="/blog/user/<%= user.id %>"><%= user.username %></a></h4>
+                <p> <%= user.username %></p>
+                <h4><a href="/blog/user/<%= user.id %>"><%= user.first_name %></a></h4>
+                <p> <%= user.first_name %></p>
+                 <a href="/blog/user/<%= user.id %>/update">Edit  User</a> | <a href="/blog/user/<%= user.id %>/delete">Delete User</a>
+            </li>
+        <br/>
+    <% }); %>
+    </ol>
+</div>
+</div>
