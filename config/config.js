@@ -19,7 +19,8 @@ module.exports = {
     password: "manifestPassword",
     database: "SimpleBlogDB",
     host: "manifestdbinstance.cgq0reqixqsd.us-east-1.rds.amazonaws.com",
-    dialect: 'postgres' 
+    dialect: 'postgres',
+    use_env_variable: "manifestdbinstance.cgq0reqixqsd.us-east-1.rds.amazonaws.com"
   }
   // ,
   // production: {
@@ -31,3 +32,5 @@ module.exports = {
   //   use_env_variable: 'DATABASE_URL'
   // }
 };
+
+
