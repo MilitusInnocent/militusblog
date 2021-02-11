@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 console.log("Database_URL", process.env.DATABASE_URL);
 
 var express = require('express');
