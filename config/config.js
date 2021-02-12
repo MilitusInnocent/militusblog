@@ -20,7 +20,6 @@ module.exports = {
     database: "SimpleBlogDB",
     host: "manifestdbinstance.cgq0reqixqsd.us-east-1.rds.amazonaws.com",
     dialect: 'postgres',
-    use_env_variable: "manifestdbinstance.cgq0reqixqsd.us-east-1.rds.amazonaws.com"
   }
   // ,
   // production: {
