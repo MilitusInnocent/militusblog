@@ -13,5 +13,5 @@
     },
     "formation": {},
     "name": "express-example",
-    "scripts": {}
+    "scripts": {"start": "node ./bin/www"}
 }
